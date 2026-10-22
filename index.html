@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dashboard | Expense Tracker</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+  <script type="module" src="auth.js"></script>
+</head>
+
+<body data-page="dashboard">
+
+  <div class="account-section">
+    <p>
+      Logged in as:
+      <strong id="userEmail"></strong>
+    </p>
+
+    <button id="logoutButton" type="button">Logout</button>
+  </div>
+
+  <div id="app"></div>
+
+</body>
+</html>
